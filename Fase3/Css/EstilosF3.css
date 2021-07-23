@@ -1,0 +1,186 @@
+body {
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.Contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Boton1{
+    height: 38px;
+    background-color: darkorange;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f4f4f4;
+}
+
+header{
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #1293d4;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #Marca {
+    float: left;
+}
+
+header #Marca h1{
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.navegacion{
+    float: right;
+	width: 900px;
+	margin: 0 80px 20px;
+	background: #24282b(24, 23, 23);
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .2s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: fixed;
+	background: #333333;
+	width: 80%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+header .Resaltado, header .Actual a {
+    color: #1293d4;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+#Cabecera{
+    min-height: 400px;
+    background: url('../Img/interaccion.jpg') no-repeat ;
+    text-align: center;
+    color: #fff;
+}
+
+#Cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#Cabecera p{
+    font-size: 20px;
+}
+
+#Noticias {
+    padding: 15px;
+    color: rgb(252, 248, 248);
+    background: #24282b;
+}
+
+#Noticias h1{
+    float: left;
+}
+
+#Noticias form{
+    float: right;
+    margin-top: 20px;
+
+}
+
+#Noticias input[type="Email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#Cajas{
+    margin-top: 30px;
+}
+
+#Cajas .Caja{
+    float: left;
+    text-align: center;
+    width: 90px;
+    padding: 120px;
+}
+
+#Cajas .Caja img{
+    width: 200px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1293d4;
+    text-align: center;
+}
